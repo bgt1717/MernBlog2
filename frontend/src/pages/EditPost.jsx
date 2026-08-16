@@ -236,22 +236,14 @@ export default function EditPost() {
               onChange={(event) => setCategory(event.target.value)}
               required
             >
-              <option value="">Select a category</option>
-              <option value="Programming">Programming</option>
-              <option value="MERN">MERN</option>
-              <option value="JavaScript">JavaScript</option>
-              <option value="React">React</option>
-              <option value="Node.js">Node.js</option>
-              <option value="Express">Express</option>
-              <option value="MongoDB">MongoDB</option>
-              <option value="SQL">SQL</option>
+              <option value="Other">Other</option>
+              <option value="Web Development">Web Development</option>
               <option value="AI">AI</option>
               <option value="Projects">Projects</option>
               <option value="Career">Career</option>
               <option value="Personal">Personal</option>
               <option value="Technology">Technology</option>
-              <option value="Tutorial">Tutorial</option>
-              <option value="Other">Other</option>
+              <option value="News">News</option>
             </select>
           </div>
 

@@ -176,7 +176,7 @@ export default function CreatePost() {
               onChange={handleChange}
               required
             >
-              <option value="Other">Select a category</option>
+              <option value="Other">Other</option>
               <option value="Web Development">Web Development</option>
               <option value="AI">AI</option>
               <option value="Projects">Projects</option>
@@ -184,8 +184,8 @@ export default function CreatePost() {
               <option value="Personal">Personal</option>
               <option value="Technology">Technology</option>
               <option value="News">News</option>
-              <option value="Other">Other</option>
             </select>
+
           </div>
           <div className="form-group">
             <label htmlFor="post-image">Featured image</label>
